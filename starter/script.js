@@ -61,14 +61,14 @@
 //     friends: ['Dele', 'Kunle', 'Yemi', 'Bola', 'Tolu'],
 // };
 
-const yemi = [
-    'Yemi',
-    'Adeyemi',
-    2022 - 1988,
-    'Software Developer',
-    ['Dele', 'Kunle', 'Yemi', 'Bola', 'Tolu'],
-    true,
-];
+// const yemi = [
+//     'Yemi',
+//     'Adeyemi',
+//     2022 - 1988,
+//     'Software Developer',
+//     ['Dele', 'Kunle', 'Yemi', 'Bola', 'Tolu'],
+
+// ];
 
 // for ( let i = 0; i < yemi.length; i++ ) { 
 //     if (typeof yemi[i] !== 'string' || Boolean) continue;
@@ -97,3 +97,25 @@ const yemi = [
 //     console.log(yemi[i], typeof yemi[i]);
 
 // }
+
+// const yemi = [
+//     'Yemi',
+//     'Adeyemi',
+//     2022 - 1988,
+//     'Software Developer',
+//     ['Dele', 'Kunle', 'Yemi', 'Bola', 'Tolu'],
+// ];
+
+// for ( let i = yemi.length - 1; i >= 0; i-- ) {
+//     console.log(i, yemi[i]);
+// }
+
+for ( let exercise = 1; exercise < 4; exercise++ ) {
+    console.log(`-------- Starting exercise ${exercise}`);
+
+    for ( let rep = 1; rep < 6; rep++ ) {
+        console.log(`Exercise ${exercise}: Lifting weight repetition ${rep}`);
+    }
+
+    
+}
